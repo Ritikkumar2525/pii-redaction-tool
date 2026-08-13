@@ -1,0 +1,32 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Source documents (may contain real PII)
+*.docx
+!output/*.docx
+
+# Sensitive reports (contain original PII)
+reports/detection_report.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# spaCy model cache
+en_core_web_sm*
